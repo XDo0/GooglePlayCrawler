@@ -1,0 +1,3 @@
+com.skgames.trafficrider
+com.king.candycrushjellysaga
+com.worldmanager.lovisa
