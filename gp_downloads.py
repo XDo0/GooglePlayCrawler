@@ -66,7 +66,7 @@ def read_apps_name():
     apps_name_list = []
     with open(GOOGLE_PLAY_APPS_TXT) as apps_name:
         for line in apps_name:
-            line = line[:-1] # windows: -1,linux:-2
+            line = line[:-1]  # windows: -1,linux:-2
             apps_name_list.append(line)
 
     return apps_name_list
@@ -102,20 +102,20 @@ def compare_apps_version(apps_name):
 
         if (result_valid) != -1:
             print("\n")
-            with open(AppsInfo, 'r',encoding='utf-8') as csv_file:
+            with open(AppsInfo, 'r', encoding='utf-8') as csv_file:
                 apps_list = csv.DictReader(csv_file, delimiter=',', quotechar='"')
                 printing_cursor = [row for row in apps_list if row["App ID"] == apps_name]
-                flag=0 # if flag==0,download new apk
+                flag = 0  # if flag==0,download new apk
                 for apps in printing_cursor:
                     if int(apps['Version Code']) == search_result[result_valid][6]:
                         print("Same version detected.No need to download " + apps_name)
-                        flag=1
-                if flag==0:
-                    with open(AppsInfo,'a+',encoding='utf-8',newline='') as fp:
-                        writer=csv.writer(fp)
+                        flag = 1
+                if flag == 0:
+                    with open(AppsInfo, 'a+', encoding='utf-8', newline='') as fp:
+                        writer = csv.writer(fp)
                         details = play_scraper.details(apps_name)
-                        description= details.get('description')
-                        app_info_row=search_result[result_valid]
+                        description = details.get('description')
+                        app_info_row = search_result[result_valid]
                         app_info_row.append(description)
                         writer.writerow(app_info_row)
                     fp.close()
@@ -126,7 +126,7 @@ def compare_apps_version(apps_name):
                                                 temp_list[0] + "_" + str(search_result[result_valid][6]) + ".apk")
 
                     if not os.path.exists(renamed_file):
-                        download_apps(gpc,downloaded_file,temp_list)
+                        download_apps(gpc, downloaded_file, temp_list)
 
                         if os.path.exists(downloaded_file):
                             print("renamed")
@@ -139,10 +139,10 @@ def compare_apps_version(apps_name):
             print("There are no " + apps_name + " in google stores...")
             # time.sleep(5)
     except Exception as ex:
-        print("exception: "+str(ex))
+        print("exception: " + str(ex))
 
 
-def download_apps(gpc,downloaded_file,app_name_list):
+def download_apps(gpc, downloaded_file, app_name_list):
     """
     Download the app_name from googleplay
     Please note that the app_name_list is actually a list 
@@ -157,7 +157,7 @@ def download_apps(gpc,downloaded_file,app_name_list):
     # tod_list=[]
     # tod_list.append(newpara)
     gpc.download(app_name_list)
-    print("Download for " + str(app_name_list[0])+ " is completed...")
+    print("Download for " + str(app_name_list[0]) + " is completed...")
 
 
 def check_app_name(search_result, apps_name):
@@ -209,13 +209,11 @@ def main():
     if not success:
         print(error)
         return
-    #gpc.download_folder(download_folder) # there is no func now
+    # gpc.download_folder(download_folder) # there is no func now
     print("Google Play Connected")
 
     # print(gpc.search("360"))
     # gpc.download(['org.mozilla.focus','org.mozilla.firefox'])
-
-
 
     for apps_tod in apps_name_list:
         compare_apps_version(apps_tod)
