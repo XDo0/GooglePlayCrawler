@@ -63,6 +63,10 @@
 
 
 
+* 没有下载成功的app会在!!exception!!那几行中print出来，（可能原因是和google play连接太多的原因），到时候重新运行gp_downloads即可
+
+
+
 
 
  

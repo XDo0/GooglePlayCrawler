@@ -1,5 +1,5 @@
-App Title,Creator,Size,Downloads,Last Update,App ID,Version Code,Rating,Description
-"AVG AntiVirus Free & Mobile Security, Photo Vault",AVG Mobile,33.53MB,"100,000,000+ downloads",9 Jun 2020,com.antivirus,324211,4.71,"Get AVG AntiVirus FREE 2020 for Android to help protect you from harmful viruses and malware. Keep your personal data safe with App Lock, Photo Vault, Wi-Fi Security Scan, and App Permissions advisor.
+APP ID,CATEGORY,VERSION,DESCRIPTION,DEVELOPER,INSTALLS,REVIEWS,SCORE,SIZE,TITLE
+com.antivirus,['TOOLS'],6.29.2,"Get AVG AntiVirus FREE 2020 for Android to help protect you from harmful viruses and malware. Keep your personal data safe with App Lock, Photo Vault, Wi-Fi Security Scan, and App Permissions advisor.
 Download for Free Now!
 Over
 100,000,000
@@ -49,8 +49,8 @@ App Insights:
 This app uses the Device Administrator permission. This permission allows you to remotely lock and wipe your device from my.avg.com
 This app uses Accessibility permission to protect visually impaired and other users against phishing attacks and malicious websites.
 By installing or updating this app, you agree that your use of it is governed by these terms: http://m.avg.com/terms
-Download Antivirus for Free Now!"
-"Avast Antivirus – Scan & Remove Virus, Cleaner",Avast Software,32.87MB,"100,000,000+ downloads",5 Jun 2020,com.avast.android.mobilesecurity,324144,4.68,"Protect against viruses & other types of malware with Avast Mobile Security, the world’s most trusted free antivirus app for Android.
+Download Antivirus for Free Now!",AVG Mobile,"100,000,000+",6909093,4.7,34M,"AVG AntiVirus Free & Mobile Security, Photo Vault"
+com.avast.android.mobilesecurity,['TOOLS'],6.29.1,"Protect against viruses & other types of malware with Avast Mobile Security, the world’s most trusted free antivirus app for Android.
 Protect your privacy by receiving alerts when spyware or adware-infected apps are downloaded onto your device.
 Secure your device against phishing attacks from emails, phone calls, infected websites, or SMS messages.
 Turn on the VPN to keep your online browsing private and safe, as well as to access your favorite paid streaming services when traveling abroad.
@@ -118,8 +118,8 @@ Check the security of public Wi-Fi networks and email messages, browse safely, a
 Power Save:
 Reduces your device's battery consumption by adjusting battery-draining settings such as Wi-Fi, data synchronization, Bluetooth, and screen settings.
 This app uses the Device Administrator permission. This permission allows you to remotely lock and wipe your device from my.avast.com.
-This app uses the Accessibility permission to protect visually impaired and other users against phishing attacks and malicious websites."
-"Kaspersky Antivirus: Security, Virus Cleaner",Kaspersky Lab Switzerland,42.27MB,"50,000,000+ downloads",26 Jun 2020,com.kms.free,5234,4.83,"⭐ Free antivirus and phone security for Android™ devices from Kaspersky  ⭐
+This app uses the Accessibility permission to protect visually impaired and other users against phishing attacks and malicious websites.",Avast Software,"100,000,000+",6206434,4.7,33M,"Avast Antivirus – Scan & Remove Virus, Cleaner"
+com.kms.free,['TOOLS'],11.50.4.3277,"⭐ Free antivirus and phone security for Android™ devices from Kaspersky  ⭐
 Kaspersky Internet Security for Android is a FREE-to-download antivirus solution to help keep your phones and tablets – which can be even more vulnerable than computers – as well as your private information secure from online dangers.
 Product features:
 ► Antivirus protection
@@ -148,8 +148,8 @@ Kaspersky Internet Security for Android helps you track and find your lost phone
 🌍 Block dangerous sites & links when you’re online
 Our powerful antivirus for Android protects your device from Internet threats while you’re browsing by blocking phishing. That’s why our virus cleaner delivers outstanding virus protection & helps keep your privacy and sensitive financial data secure when you buy stuff.*
 * Functionality is available only in Premium version.
-This app uses the Device Administrator permission and Accessibility services."
-Security & Antivirus | Lookout,Lookout Mobile Security,14.66MB,"100,000,000+ downloads",2 Jun 2020,com.lookout,10330069,4.49,"Lookout Mobile Security and Antivirus provides premium mobile security and identity protection for all of your mobile devices.
+This app uses the Device Administrator permission and Accessibility services.",Kaspersky Lab Switzerland,"50,000,000+",3341931,4.8,Varies with device,Kaspersky Mobile Antivirus: AppLock & Web Security
+com.lookout,['TOOLS'],10.33-6652654,"Lookout Mobile Security and Antivirus provides premium mobile security and identity protection for all of your mobile devices.
 Lookout Mobile Security & Antivirus is now the only all-in-one security & antivirus app that protects your mobile device, your data and your identity with powerful mobile security, antivirus and identity theft protection. Stay ahead of any virus with our antivirus features, phishing attacks or other mobile theft breach with Lookout Mobile Security & Antivirus.
 We’re excited to introduce Safe Wi-Fi and System Advisor, two brand new security features to keep you and your personal data safe and secure.
 Safe Wi-Fi
@@ -183,4 +183,39 @@ IDENTITY RESTORATION & INSURANCE
 About Lookout Inc.
 Visit our website https://www.lookout.com to learn more about us and our mobile security, antivirus and identity protection products.
 Note: This app uses the Device Administrator permission. This app uses Accessibility services.
-Insurance coverage is provided by a third-party and is subject to the terms, conditions and exclusions of the insurance policy available at www.lookout.com/legal. Lookout is not a licensed insurer or insurance agent."
+Insurance coverage is provided by a third-party and is subject to the terms, conditions and exclusions of the insurance policy available at www.lookout.com/legal. Lookout is not a licensed insurer or insurance agent.",Lookout Mobile Security,"100,000,000+",1035996,4.5,15M,"Lookout - Mobile Security, Antivirus & Cleaner"
+com.security.antivirus.totalanti,['TOOLS'],1.02,"Get 360 Security Total (Free) for Android ™ to protect yourself from viruses, malware, spyware, scamware and dangerous messages and to protect your personal data thanks to application locking and photo vault.
+Download it for free now!
+More than 100,000,000 people have already chosen 360 Security Total mobile security applications. Join them so you can:
+• Analyze applications, games, settings and fichiers in real time
+• Activate the geolocation of your lost phone via Google Maps ™
+• End tasks slowing down your device
+• Monitor and optimize the use of battery, storage space and data
+• Lock sensitive apps
+• Hide your private photos in an encrypted safe
+• Analysis of WiFi networks to resolve encryption, password strength and other threats
+With 360 Security Total (Free) for Android, you will benefit from simple and effective protection against viruses and malware, from a phone locator, from a task killer, from application locking, from blocking. calls and a safe for your photos, protecting you from threats to your privacy and online identity.
+Application functions:
+Protection:
+• Analyze applications, games and files and remove malicious content
+• Analyze websites to detect threats. If a suspicious URL is detected, you will be redirected to a ""secure page"" (only for the default browser of Android and Chrome)
+• WiFi scanner, analyzer and inspector for network encryption, password strength, presence of Captive Portal (a portal asking you to identify yourself before using WiFi) and ARP Poisoning (allows attackers to redirect you to another URL)
+Performances:
+• Monitor the battery and save energy
+• End tasks and processes slowing down your phone
+• Track the use of your mobile data
+• Optimize storage space (internal memory and SD card)
+Anti-theft:
+Use 360 Security Total (Free) for Android with the 360 Security Total remote management console or SMS for:
+• Locate your lost phone via Google Maps
+• Lock your phone and set a screen lock message to help the person who found it contact you
+• Make your phone ring even in silent mode
+• Format your phone and SD card content
+• Camera Trap (30-day trial) discreetly sends you an email with the photo of the person who entered 3 incorrect passwords when trying to unlock your phone
+• SIM Lock (30 day trial) automatically locks your phone as soon as your SIM card is replaced
+Confidentiality:
+• Hide your private photos in a password-protected vault to prevent others from snooping on your memories
+• The app lock (30-day trial) locks sensitive applications to protect your privacy and security or your device settings to secure their configuration
+• Blocking calls and messages protects you from spam, hackers and scammers. Be alerted to suspicious SMS, filter and block dangerous calls and messages (SMS blocking is not available for Android v4.4 and later)
+• Delete call history, clipboard content and browsing history (Chrome)
+360 Security Total (Free) for Android is available in 33 languages.",DotHolo,"10,000+",122,3.8,5.8M,"360 Security Total - Antivirus, Cleaner & Booster"
