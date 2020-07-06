@@ -1,3 +1,7 @@
-com.skgames.trafficrider
-com.king.candycrushjellysaga
-com.worldmanager.lovisa
+com.antivirus
+com.avast.android.mobilesecurity
+com.kms.free
+com.lookout
+com.avast.android.mobilesecurity
+com.antivirus
+com.security.antivirus.totalanti

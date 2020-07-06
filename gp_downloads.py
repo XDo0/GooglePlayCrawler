@@ -157,7 +157,7 @@ def download_apps(gpc, downloaded_file, app_name_list):
     # tod_list=[]
     # tod_list.append(newpara)
     gpc.download(app_name_list)
-    print("Download for " + str(app_name_list[0]) + " is completed...")
+    print("Download is completed...")
 
 
 def check_app_name(search_result, apps_name):
@@ -201,7 +201,7 @@ def main():
 
     # Read from the files
     apps_name_list = read_apps_name()
-    print("Apps name is stored in apps_name_list")
+    print("Apps name is stored in free_apps")
 
     # Connect to Google Play
     print("Connecting to Google Play through gplaycli")
